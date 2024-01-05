@@ -9,9 +9,18 @@ body {
   margin: 0;
 }
 
+.power{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  padding: 10px;
+  background-color:rgb(133, 90, 211,0.4) ;
+  border-radius: 20px;
+}
+
 .search {
   padding: 10px;
-  background-color: rgb(225, 241, 241);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 290px;
   margin: auto;
   margin-top: 20px;
@@ -21,15 +30,19 @@ body {
 .search input {
   height: 30px;
   width: 230px;
-  background-color: rgb(225, 241, 241);
+  background-color:rgb(255, 255, 255,0);
   border: 0;
   outline: none;
+}
+::placeholder{
+    color: white;
+    text-align: center;
 }
 
 .search button {
   padding: 8px;
   border-radius: 100%;
-  background-color: rgb(188, 221, 221);
+  background-color: rgb(222, 247, 247);
   position: relative;
 }
 
