@@ -1,62 +1,63 @@
-body{
-    /* background-color: rgb(219, 115, 115); */
-    background-image: url(https://m.media-amazon.com/images/M/MV5BOGE2ZjczZjEtNmUzYi00NTY4LWIwMGQtNDY5ZWM4YmI2YzQ3XkEyXkFqcGdeQXVyNTEwOTEzNDk@._V1_SX300.jpg);
-    text-align: center;
-    /* background-color: rgb(0, 0, 0); */
-    background-size: cover;
-    color: white;
-    backdrop-filter: blur(15px);
-    margin: 0;
+body {
+  /* background-color: rgb(219, 115, 115); */
+  background-image: url(/icons/panda\ bg.jpg);
+  text-align: center;
+  /* background-color: rgb(0, 0, 0); */
+  background-size: cover;
+  color: white;
+  backdrop-filter: blur(15px);
+  margin: 0;
 }
 
-.search{
-    padding: 10px;
-    background-color: rgb(225, 241, 241);
-    width: 290px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 50px;
+.search {
+  padding: 10px;
+  background-color: rgb(225, 241, 241);
+  width: 290px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 50px;
 }
 
-.search input{
-    height: 30px;
-    width: 230px;
-    background-color: rgb(225, 241, 241);
-    border: 0;
-    outline: none;
+.search input {
+  height: 30px;
+  width: 230px;
+  background-color: rgb(225, 241, 241);
+  border: 0;
+  outline: none;
 }
 
-.search button{
-    padding: 8px;
-    border-radius: 100%;
-    background-color: rgb(188, 221, 221);
-    position: relative;
+.search button {
+  padding: 8px;
+  border-radius: 100%;
+  background-color: rgb(188, 221, 221);
+  position: relative;
 }
 
-.title h1{
-    font-size: 70px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.title h1 {
+  font-size: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .poster img {
-    width: 350px;
-    height: 504px;
-    border-radius: 5px;
+  width: 350px;
+  height: 504px;
+  border-radius: 5px;
 }
-.contents{
-    width: 70%;
-    background-color: rgba(33, 35, 37, 0.5);
-    margin-left: 15%;
-    border-radius: 10px;
-    height: 200px;
-    margin-top: 20px;
-    padding: 30px;
-    color: rgb(255, 255, 255);
-    font-size: 26px;
-    text-decoration: wavy;
-    font-family: initial;
+.contents {
+  width: 70%;
+  background-color: rgba(33, 35, 37, 0.5);
+  margin-left: 15%;
+  border-radius: 10px;
+  height: 220px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  text-decoration: wavy;
+  font-family: initial;
 }
-.details{
-    text-align: left;
-    margin-left: 35%;
+.details {
+  text-align: left;
+  margin-left: 35%;
 }
