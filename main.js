@@ -13,7 +13,18 @@ const disprating = document.querySelector(".rating");
 async function fetchmovie() {
   const mname = movie.value;
   if (mname == "") {
-    displayposter.src = "icons/search.png";
+    displaytitle.innerHTML = " ";
+    displayrealeseyear.innerHTML = "";
+    displayposter.src = "";
+    displayGenre.innerHTML = "";
+    displaydirector.innerHTML = "";
+    displayawards.innerHTML = "";
+    displayoverview.innerHTML = "";
+    dispcountry.innerHTML = "";
+    disprating.innerHTML = "";
+
+    displayposter.src =
+      "https://github.com/RaZa077/Movie-Reviews-/blob/main/icons/search.png?raw=true";
   } else {
     try {
       const out = await fetch(
@@ -21,7 +32,18 @@ async function fetchmovie() {
       );
       const datas = await out.json();
       if (datas.Error == "Movie not found!") {
-        displayposter.src = "icons/notfound.png";
+        displaytitle.innerHTML = " ";
+        displaytitle.innerHTML = " ";
+        displayrealeseyear.innerHTML = "";
+        displayposter.src = "";
+        displayGenre.innerHTML = "";
+        displaydirector.innerHTML = "";
+        displayawards.innerHTML = "";
+        displayoverview.innerHTML = "";
+        dispcountry.innerHTML = "";
+        disprating.innerHTML = "";
+        displayposter.src =
+          "https://github.com/RaZa077/Movie-Reviews-/blob/main/icons/notfound.png?raw=true";
       } else {
         console.log(datas);
         displaytitle.innerHTML = `${datas.Title}`;
@@ -34,7 +56,6 @@ async function fetchmovie() {
         dispcountry.innerHTML = `Country: ${datas.Country}`;
         disprating.innerHTML = `Rating By ${datas.Ratings[0].Source}: ${datas.Ratings[0].Value}`;
       }
-    } catch {
-    }
+    } catch {}
   }
 }
