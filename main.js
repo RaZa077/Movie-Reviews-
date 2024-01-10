@@ -19,7 +19,7 @@ async function fetchmovie() {
     displayGenre.innerHTML = "";
     displaydirector.innerHTML = "";
     displayawards.innerHTML = "";
-    displayoverview.innerHTML = "";
+    displayoverview.innerHTML = "Search Bar Cannot Be Blank";
     dispcountry.innerHTML = "";
     disprating.innerHTML = "";
 
@@ -39,7 +39,7 @@ async function fetchmovie() {
         displayGenre.innerHTML = "";
         displaydirector.innerHTML = "";
         displayawards.innerHTML = "";
-        displayoverview.innerHTML = "";
+        displayoverview.innerHTML = "Enter a Valid Movie Name";
         dispcountry.innerHTML = "";
         disprating.innerHTML = "";
         displayposter.src =
